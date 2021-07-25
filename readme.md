@@ -9,6 +9,14 @@ on how to write clean code with the help of MVVM.
 In this project we will use MVVM , dagger hilt , kotlin flows and Coroutines to build a simple Age to Minute converter App . Hope you will enjoy and learn something new from this app
 </p>
 
+<ol>
+  <li> MVVM </li>
+  <li> Dagger Hilt </li>
+  <li> Kotlin-Flow </li>
+  <li> Kotlin-Coroutines </li>
+  <li> StateFlow </li>
+</ol>
+
 <h4>
 Screenshots
 </h4>
