@@ -2,7 +2,6 @@ package com.codingwithjks.agetominutesapp.repository
 
 import android.app.DatePickerDialog
 import android.content.Context
-import android.util.Log
 import kotlinx.coroutines.Dispatchers
 import kotlinx.coroutines.ExperimentalCoroutinesApi
 import kotlinx.coroutines.channels.awaitClose
@@ -24,25 +23,7 @@ class MainRepository @Inject constructor(
         val mMonth = myCalendar.get(Calendar.MONTH)
         val mDay = myCalendar.get(Calendar.DAY_OF_MONTH)
 
-//        var currentYear = 0
-//        var currentDay = 0
-//        var currentMonth = 0
-
-        // emit(listOf(currentYear, currentMonth, currentDay))
-
-//        DatePickerDialog(
-//            context,
-//            { _, year, month, dayOfMonth ->
-//                currentYear = year
-//                currentMonth = month
-//                currentDay = dayOfMonth
-//            },
-//            mYear,
-//            mMonth,
-//            mDay
-//        ).show()
-
-        val callback = object : DatePickerDialog(
+        object : DatePickerDialog(
             context,
             { _, year, month, dayOfMonth ->
                 offer(listOf(dayOfMonth, month, year))
