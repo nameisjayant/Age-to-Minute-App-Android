@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.appcompat.widget.LinearLayoutCompat xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#F1CFB5"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="20dp"
+        android:text="CALCULATE YOUR "
+        android:textColor="#7A3909"
+        android:textSize="22sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="10dp"
+        android:background="#00B8D4"
+        android:padding="10dp"
+        android:text="AGE"
+        android:textColor="#fff"
+        android:textSize="22sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="10dp"
+        android:text="IN MINUTES "
+        android:textColor="#7A3909"
+        android:textSize="22sp"
+        android:textStyle="bold" />
+
+    <Button
+        android:id="@+id/date_picker"
+        android:layout_margin="10dp"
+        android:text="SELECT DATE"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+
+    <TextView
+        android:id="@+id/selected_date"
+        android:layout_width="wrap_content"
+        android:text="10/12/2020"
+        android:textColor="#FF6D00"
+        android:textStyle="bold"
+        android:layout_gravity="center"
+        android:layout_marginTop="30dp"
+        android:textSize="22sp"
+        android:layout_height="wrap_content"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:text="selected date"
+        android:layout_gravity="center"
+        android:textSize="16sp"
+        android:layout_height="wrap_content"/>
+
+    <TextView
+        android:id="@+id/age_in_minutes"
+        android:layout_width="wrap_content"
+        android:text="102030"
+        android:layout_gravity="center"
+        android:textColor="#FF6D00"
+        android:textStyle="bold"
+        android:layout_marginTop="50dp"
+        android:textSize="22sp"
+        android:layout_height="wrap_content"/>
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:text="Age in minutes"
+        android:layout_gravity="center"
+        android:textSize="16sp"
+        android:layout_height="wrap_content"/>
+
+</androidx.appcompat.widget.LinearLayoutCompat>
